@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-// import contactus from "../public/assets/contact-us.jpg";
+
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {

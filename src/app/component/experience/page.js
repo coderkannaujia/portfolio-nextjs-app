@@ -1,14 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
-import html from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/html.png"
-import css from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/css.png"
-import javascript from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/javascript.png"
-import react from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/react.png"
-import nextjs from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/nextjs.png"
-import tailwind from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/tailwind.png"
-// import express from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/graphql.png"
-import express from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/express.png"
-import node from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/experience/node.png"
+
+import html from "/./public/assets/experience/html.png"
+import css from "/./public/assets/experience/css.png"
+import javascript from "/./public/assets/experience/javascript.png"
+import react from "/./public/assets/experience/react.png"
+import nextjs from "/./public/assets/experience/nextjs.png"
+import tailwind from "/./public/assets/experience/tailwind.png"
+import express from "/./public/assets/experience/express.png"
+import node from "/./public/assets/experience/node.png"
 
 
 const Experience = () => {

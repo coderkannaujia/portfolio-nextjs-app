@@ -2,15 +2,12 @@ import Link from 'next/link';
 import React from 'react'
 import { MdExpandMore } from "react-icons/md";
 import Image from 'next/image';
-// import installNode from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/portfolio/installNode.jpg"
-// import reactParallax from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/portfolio/reactParallax.jpg"
-// import useState from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/portfolio/useState.jpg"
-// import reactWeather from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/assets/portfolio/reactWeather.jpg"
-// import Portfolios from '@/app/portfolio/react-weather/app';
-import food from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/image/food.png"
-import travel from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/image/travel.png"
-import movie from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/image/movie.png"
-import education from "/Users/amitk/Downloads/AMIT-PORTFOLIO/one-porfolio/public/image/education.png"
+
+import food from "/public/image/food.png"
+import travel from "/public/image/travel.png"
+import movie from "/public/image/movie.png"
+import education from "/public/image/education.png"
+
 
 const Portfolio = () => {
 
@@ -54,15 +51,16 @@ const Portfolio = () => {
       {/* /portfolio/installNode.jpg */}
       <div className='max-w-5xl mx-auto grid md:grid-cols-2 gap-8'>
              {portfolio.map(({id ,title,imageSrc ,url})=>(
-                 <Link key={id} href=''> 
+                 <Link key={id} href='youtube.com'> 
                   <div className='cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md '>
                    <Image 
                    src={imageSrc}
                    alt={title}
                    className='rounded-md duration-200 hover:scale-110' />
                    <h2 className='text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4'>
-                    
-                  {title}
+                   
+        
+
                   </h2>
                   </div>
                  </Link>
