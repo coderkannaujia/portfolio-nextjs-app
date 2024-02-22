@@ -6,18 +6,19 @@ import { MdExpandMore } from "react-icons/md";
 
 const Me = () => {
   return (
-    <div id="me" className="w-full">
+    <div id="me" className=" w-[580px] md:w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
         about me
         </h2>
 
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
-          <p className="py-4 max-w-2xl font-semibold text-lg mx-auto">
+          <p className="py-4 max-w-2xl  text-xl mx-auto">
           "I am a highly skilled and versatile individual with a strong foundation in [html ,css ,javascript ,tailwind,next js ,nodejs]. Through my meticulously developed personal portfolio, I showcase not only my proficiency in these areas but also my ability to leverage them creatively to solve complex problems and deliver impactful solutions. With a keen eye for detail and a passion for innovation, I continuously push the boundaries of my capabilities, ensuring that my portfolio remains a dynamic reflection of my growth and expertise in the ever-evolving field of [html ,css ,javascript ,tailwind,next js ,nodejs]."
           </p>
-          <p className="py-4 max-w-2xl font-semibold text-lg  mx-auto">
-          gy and expertise into developing a personal portfolio that truly reflects my skills and capabilities. With a solid foundation in [html ,css ,javascript ,tailwind,next js ,nodejs], I have meticulously crafted projects that demonstrate not only my proficiency but also my creativity and problem-solving abilities. Each entry in my portfolio serves as a testament to my dedication to mastering my craft and my commitment to delivering high-quality work. Through continuous learning and a passion for innovation, I strive to ensure that my portfolio remains a dynamic representation of my growth and expertise in [html ,css ,javascript ,tailwind,next js ,nodejs].
+          <p className="py-4 max-w-2xl  text-xl  mx-auto">
+          
+        As a dedicated professional, I have poured my energy and expertise into developing a personal portfolio that truly reflects my skills and capabilities. With a solid foundation in [html ,css ,javascript ,tailwind,next js ,nodejs], I have meticulously crafted projects that demonstrate not only my proficiency but also my creativity and problem-solving abilities. Each entry in my portfolio serves as a testament to my dedication to mastering my craft and my commitment to delivering high-quality work. Through continuous learning and a passion for innovation, I strive to ensure that my portfolio remains a dynamic representation of my growth and expertise in [html ,css ,javascript ,tailwind,next js ,nodejs].
           </p>
           {/* <p className="py-4 max-w-2xl mx-auto">
             Nepenthe above my pallas of rapping guessing shore. Then chamber

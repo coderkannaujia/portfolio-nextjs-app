@@ -14,15 +14,13 @@ const Porfolio = () => {
 
 
 return (
-  <div id="portfolio" className="w-full">
+  <div id="portfolio" className=" w-[580px] md:w-full">
     <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
       <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
         portfolio
       </h2>
-      <p className="py-4 max-w-lg">
-        While only that hauntedtell many purple no lent cushions more heart.
-        Soul cushions the still if i, hath lamplight mortals the rapping have
-        me and.
+      <p className="py-4  text-2xl md:text-xl ">
+      In my journey as a passionate and dedicated individual in the realm of technology, I have continually strived to blend creativity with technical expertise, crafting innovative solutions and pushing boundaries to achieve excellence.
       </p>
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">

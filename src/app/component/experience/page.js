@@ -59,13 +59,13 @@ const Experience = () => {
 
 
   return (
-    <div id='experience' className='w-full'>
+    <div id='experience' className=' w-[580px]  md:w-full'>
    <div className='max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left'>
       <h2 className='text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold'>
       experience
       </h2>
 
-      <p className='py-4 font-bold text-md '>
+      <p className='py-4 text-xl '>
       In my personal portfolio, I showcase a robust collection of technical skills honed through hands-on experience and dedicated learning. With a deep passion for technology, I've cultivated proficiency in a diverse range of areas including programming languages such as java, JavaScript,Html ,css ,Tailwind . My experience extends to frameworks and libraries like React.js, Node.js, and Express js, 
       </p>
       

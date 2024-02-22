@@ -1,21 +1,23 @@
 import Image from "next/image";
 import React from "react";
 
-
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full">
-      <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
+    <div id="contact" className=" w-[600px] md:w-full">
+      <div className="w-[600px] md:w-full  mx-auto py-16 text-center md:text-left">
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
           contact
         </h2>
 
-        <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-blue-300 bg-white mt-4">
-          <div className="w-full md:w-1/2 h-full rounded-xl p-4">
+        <div className=" w-[590px] md:w-full flex flex-col md:flex-row gap-8 shadow-xl  shadow-blue-300  mt-4">
+
+
+          {/* <div1 green > */}
+          <div className="w-full md:w-1/2  h-full rounded-xl p-4">
             <img
-              src='/contact-us.jpg'
+              src="/contact-us.jpg"
               alt="man with laptop"
               className="rounded-xl"
             />
@@ -39,10 +41,14 @@ const Contact = () => {
                 <FaGithub size={25} />
               </div>
             </div>
-          </div>
+
+          </div> {/* </div1 green> */}
+             
+
+
 
           {/* form stuff  */}
-          <div className="w-full md:w-1/2 h-full rounded-xl p-4">
+          <div className=" w-full md:w-1/2 mr-6 h-full rounded-xl  p-4">
             <div className="p-4 text-left">
               <form
                 action="https://getform.io/f/357378e6-dce8-451c-8d15-226c219dc76a"
@@ -60,13 +66,13 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="capitalize text-sm py-2 text-slate-600 font-light">
+                    <label className="capitalize text-sm py-2 overflow-hidden text-slate-600 font-light">
                       phone
                     </label>
                     <input
                       type="text"
                       name="phone"
-                      className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
+                      className="border-2 rounded-lg p-3 flex focus:outline-none  border-blue-200"
                     />
                   </div>
 
@@ -99,8 +105,12 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-          </div>
-        </div>
+            </div>
+
+          {/* </div> <form end pink> */}
+         </div>
+
+
       </div>
     </div>
   );
