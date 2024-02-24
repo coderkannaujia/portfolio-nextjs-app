@@ -43,7 +43,7 @@ const FoodApp = () => {
       </p>
 
       <div className="flex items-center justify-center gap-10">
-        <Link href="https://asianfood-next-js-apps.vercel.app/">
+        <Link href="https://asianfoodk-nextjs-app.vercel.app/">
           <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
             demo
             <span className="duration-200 ease-in">
