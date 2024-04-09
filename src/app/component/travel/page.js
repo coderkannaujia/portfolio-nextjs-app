@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { BiChevronLeft } from "react-icons/bi";
-import travel from "/public/image/travel.png"
+import crud from "/public/image/crudimg.png"
 
 const Travel = () => {
  return (
@@ -23,7 +23,7 @@ const Travel = () => {
       </h1>
 
       <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
-        <Image src={travel} alt="bla" layout="fill" objectFit="cover" />
+        <Image src={crud} alt="crudimg" layout="fill" objectFit="cover" />
       </div>
 
       <h2 className="text-center md:text-left my-4 text-2xl font-bold">
@@ -31,19 +31,11 @@ const Travel = () => {
       </h2>
 
       <p>
-        Human thy god sainted is the distinctly shrieked grave bird shrieked,
-        yore borrow nevermore but gaunt maiden have nothing darkness, answer
-        evermore word there from raven, sorrowsorrow from on and nevermore of
-        core. Whom the meant and while i of respiterespite his lamplight. Or
-        being weary parting grave lent if. Rare came stillness whether the
-        lord. Bust myself whom of soul silken. The that there this my, quaint
-        that only lenore stern muttered and nothing or tapping. Here lie
-        lining i still. A tis some and chamber flitting. Lamplight radiant
-        from no yet what, upon that that one decorum leave.
+      This project demonstrates basic CRUD (Create, Read, Update, Delete) operations using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a simple yet effective example of how to build a full-stack application with these technologies.
       </p>
 
       <div className="flex items-center justify-center gap-10">
-        <Link href="https://travel-nextjs-app.vercel.app/">
+        <Link href="https://crud-fronted-project.vercel.app/">
           <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
             demo
             <span className="duration-200 ease-in">

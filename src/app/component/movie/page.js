@@ -31,15 +31,7 @@ const Movie = () => {
       </h2>
 
       <p>
-        Human thy god sainted is the distinctly shrieked grave bird shrieked,
-        yore borrow nevermore but gaunt maiden have nothing darkness, answer
-        evermore word there from raven, sorrowsorrow from on and nevermore of
-        core. Whom the meant and while i of respiterespite his lamplight. Or
-        being weary parting grave lent if. Rare came stillness whether the
-        lord. Bust myself whom of soul silken. The that there this my, quaint
-        that only lenore stern muttered and nothing or tapping. Here lie
-        lining i still. A tis some and chamber flitting. Lamplight radiant
-        from no yet what, upon that that one decorum leave.
+      CineVista is an immersive static UI website inspired by the renowned IMDb platform, offering users a rich and comprehensive movie exploration experience. With its sleek design, intuitive interface, and extensive database of films, CineVista aims to captivate movie enthusiasts and cinephiles alike, providing a seamless platform for discovering, exploring, and celebrating the magic of cinema.
       </p>
 
       <div className="flex items-center justify-center gap-10">

@@ -31,19 +31,11 @@ const Education = () => {
       </h2>
 
       <p>
-        Human thy god sainted is the distinctly shrieked grave bird shrieked,
-        yore borrow nevermore but gaunt maiden have nothing darkness, answer
-        evermore word there from raven, sorrowsorrow from on and nevermore of
-        core. Whom the meant and while i of respiterespite his lamplight. Or
-        being weary parting grave lent if. Rare came stillness whether the
-        lord. Bust myself whom of soul silken. The that there this my, quaint
-        that only lenore stern muttered and nothing or tapping. Here lie
-        lining i still. A tis some and chamber flitting. Lamplight radiant
-        from no yet what, upon that that one decorum leave.
+      EduHub is a sleek and modern educational static UI website designed to provide users with a seamless browsing experience while exploring educational resources. With its clean and intuitive interface, EduHub aims to serve as a hub for educational content, catering to students, educators, and lifelong learners alike.
       </p>
 
       <div className="flex items-center justify-center gap-10">
-        <Link href="https://main--education-website-nextjs.netlify.app/">
+        <Link href="https://educational-nextjs-webapp.vercel.app/">
           <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
             demo
             <span className="duration-200 ease-in">
