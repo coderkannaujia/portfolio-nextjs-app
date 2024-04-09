@@ -19,7 +19,7 @@ const Travel = () => {
       </div>
 
       <h1 className="capitalize text-4xl mt-2 mb-8 text-center md:text-left font-bold text-blue-500 tracking-wider">
-        food
+        crud-operation
       </h1>
 
       <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">

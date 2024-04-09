@@ -5,7 +5,7 @@ import { MdExpandMore } from "react-icons/md";
 import food from "/public/image/food.png"
 import educaction from "/public/image/education.png"
 import movie from "/public/image/movie.png"
-import travel from "/public/image/travel.png"
+import crud from "/public/image/crudimg.png"
 
 
 
@@ -67,15 +67,15 @@ return (
           </Link>
 
 
-          <Link  href="/component/travel"> 
+          <Link  href="/component/crud"> 
             <div className="cursor-pointer group shadow-md shadow-gray-600 overflow-hidden rounded-md">
               <Image
-                src={travel}
+                src={crud}
                 alt="food-app"
                 className="rounded-md duration-200 
                 hover:scale-110"
               />
-              <h2 className="text-center text-base capitalize my-4 font-bold duration-200 group-hover:underline underline-offset-4"> travel-app </h2>
+              <h2 className="text-center text-base capitalize my-4 font-bold duration-200 group-hover:underline underline-offset-4"> mern-crud-app </h2>
             </div>
           </Link>
       </div>
